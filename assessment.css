@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(90deg,#F89174, #FFC778);
+    /*グラデーションは linear-gradient
+    degは角度*/
+    color:#ffffff;
+
+/*
+  background-colorは16進数カラーコード
+  colorは「光の三原色」の赤（Red）・緑（Green）・青（Blue）で
+  表示される。
+  #000000 = 黒　0はノーカラー 0
+  #FFFFFF = 白　Fは色あり
+  上2桁は赤、中2桁は緑、青2桁は青　
+*/
+width: 500px;
+margin-right: auto;
+margin-left: auto;
+}
+button{
+    padding: 5px 20px;
+    background-color: #ff69b4;
+    color: #ffffff;
+    border-style: none;
+}
+input{
+    height: 20px;
+}
+
